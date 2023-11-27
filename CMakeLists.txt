@@ -25,5 +25,4 @@ add_executable(careful.out src/main.c)
 
 target_link_libraries(careful.out 
                       server
-                      client
-                      picoquic)
+                      client)
